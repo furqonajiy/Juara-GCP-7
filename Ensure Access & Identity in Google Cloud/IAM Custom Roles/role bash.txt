@@ -1,0 +1,4 @@
+gcloud iam roles describe editor --project $DEVSHELL_PROJECT_ID
+
+gcloud iam roles update editor --project $DEVSHELL_PROJECT_ID \
+--file new-role-definition.yaml
