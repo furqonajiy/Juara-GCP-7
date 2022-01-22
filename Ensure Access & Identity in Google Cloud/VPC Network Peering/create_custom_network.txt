@@ -1,0 +1,6 @@
+gcloud config set project qwiklabs-gcp-03-1cf228cd1b7d
+gcloud config set project qwiklabs-gcp-00-6dfa2b6d13eb
+
+gcloud compute routes list --project qwiklabs-gcp-03-1cf228cd1b7d
+
+10.0.0.2
